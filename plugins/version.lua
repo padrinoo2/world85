@@ -14,14 +14,14 @@
 do
 
 function run(msg, matches)
-  return 'BehroozTG Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot \n\nhttp://github.com/padrinoo2/world85\n\nDevelopers :\n@MaSkAoS\n@Josepdal\n\nSupport :\n@hang_1' 
-  --[[ Checkout https://github.com/padrinoo2/world85
+  return '⭕️ برنامه ریزی درسی برای روز پنجشنبه : ✅ ساعت 2 تا 4 ادبیات : ⛱1. ابتدا نکته ادبی خوانده شود(ربع ساعت استراحت بعد از اتمام) ⛱2. سپس تاریخ ادبیات خوانده شود(ربع ساعت استراحت بعد از اتمام) ⛱3. در مرحله اخر تمام معنی ها خوانده شود(ربع ساعت استراحت بعد از اتمام) ✅ ساعت 6 تا 9 ریاضی : ⛱ 1. تمرین کردن فصل چهار با تمام توان ؛ ابتدا کتاب درسی بررسی و حل شود و سپس کتاب کار کلاغ سپید فصل چهار حل شود .' 
+  --[[ Checkout https://github.com/padrinoo2/world85/plugins/version
   --GNU GPL v2 license.]]
 end
 
 return {
   patterns = {
-    "^#version$"
+    "^#lesson$"
   }, 
   run = run 
 }
